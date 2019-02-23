@@ -1,0 +1,53 @@
+       #main_container {
+            display: flex;
+            flex-direction: row;
+            }
+        #input_container {
+            display: flex;
+            flex-direction: column;
+            background: rgb(162, 233, 192);
+            padding: 10px;
+            margin: 10px;
+            width: 500px;
+            height: 300px;
+            }
+           
+        #div_container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 800px;
+            margin: 10px;
+            flex-grow: 1;
+            }
+        #name  {
+            width: 97%;
+            }
+           
+        #day {
+            width: 31%;
+           }
+        #month {
+            width: 31%;
+           }
+        #year {
+             width: 31%;
+           }
+   
+        p {
+           background: rgb(166, 160, 221);
+           border: 2px solid purple;
+           width: 350px;
+           height: 50px;
+           margin: 10px;
+           padding: 10px;
+           }
+        h5 {
+            margin-top: 10px;
+           }
+        button {
+            background: darkgreen;
+            color: white;
+            height: 30px;
+            width: 99%;
+           }
